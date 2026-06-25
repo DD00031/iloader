@@ -66,18 +66,18 @@
     "email_placeholder": "Apple ID Email...",
     "password_placeholder": "Apple ID Wachtwoord...",
     "save_credentials": "Sla inloggegevens op",
-    "enter_email_password": "Voer zowel een e-mailadres als een wachtwoord in.",
+    "enter_email_password": "Voer zowel een geldig e-mailadres als wachtwoord in.",
     "valid_email": "Voer een geldig e-mailadres in.",
     "login": "Inloggen",
     "two_factor_title": "Twee-Factor Authenticatie",
-    "two_factor_prompt": "Voer de verificatiecode in die naar uw apparaat is verzonden.",
+    "two_factor_prompt": "Voer de verificatiecode in die naar je apparaat is verzonden.",
     "verification_placeholder": "Verificatiecode...",
     "valid_6digit": "Voer een geldige 6-cijferige code in.",
     "submit": "Verzenden",
     "max_certs_title": "Maximum aantal certificaten bereikt",
-    "max_certs_desc": "iloader zal uw bestaande certificaten intrekken en een nieuw certificaat genereren.",
+    "max_certs_desc": "iloader zal je bestaande certificaten intrekken en een nieuw certificaat genereren.",
     "hide_certificate_list": "Verberg certificaatlijst",
-    "choose_what_to_revoke": "Kies welke certificaten u wilt intrekken",
+    "choose_what_to_revoke": "Kies welke certificaten je wilt intrekken",
     "continue": "Doorgaan",
     "no_keyring_available": "Het is niet mogelijk om inloggegevens op dit apparaat op te slaan."
   },
@@ -91,7 +91,7 @@
     "no_devices_found_period": "Geen apparaten gevonden.",
     "selected": "Geselecteerd",
     "pairing_in_progress_header": "Koppelen met {{device}}...",
-    "pairing_in_progress_hint": "Ontgrendel uw apparaat, klik op \"Vertrouwen\" en voer vervolgens uw pincode in als daarom wordt gevraagd.",
+    "pairing_in_progress_hint": "Ontgrendel je apparaat, klik op \"Vertrouwen\" en voer vervolgens je pincode in als daarom wordt gevraagd.",
     "pairing_cancel": "Annuleren",
     "failed_select": "Kan apparaat niet selecteren"
   },
@@ -171,17 +171,17 @@
     "place_all": "Plaats In Alle Apps"
   },
   "settings": {
-    "anisette_server": "Anisette Server:",
-    "custom_anisette_placeholder": "Aangepaste Anisette Server",
+    "anisette_server": "Anisette-Server:",
+    "custom_anisette_placeholder": "Aangepaste Anisette-Server",
     "custom_anisette": "Aangepast",
-    "use_custom_anisette": "Gebruik een aangepaste Anisette server",
+    "use_custom_anisette": "Gebruik een aangepaste Anisette-Server",
     "back_preset_servers": "Terug naar vooraf ingestelde servers",
-    "reset_anisette_title": "Anisette Status Resetten",
-    "reset_anisette_message": "Weet je zeker dat je de anisette status wilt resetten? Je zult opnieuw je 2FA code moeten invoeren.",
-    "resetting_anisette_state": "Anisette status resetten...",
-    "anisette_state_reset_success": "Anisette status succesvol gereset",
-    "anisette_state_not_found": "Geen anisette status gevonden om te resetten",
-    "failed_reset_anisette_state": "Kon anisette status niet resetten",
+    "reset_anisette_title": "Anisette-status Resetten",
+    "reset_anisette_message": "Weet je zeker dat je de Anisette-status wilt resetten? Je zult je 2FA code opnieuw moeten invoeren.",
+    "resetting_anisette_state": "Anisette-status resetten...",
+    "anisette_state_reset_success": "Anisette-status succesvol gereset",
+    "anisette_state_not_found": "Geen Anisette-status gevonden om te resetten",
+    "failed_reset_anisette_state": "Kon Anisette-status niet resetten",
     "view_logs": "Logboeken bekijken",
     "logs": "Logboeken",
     "log_level": "Logniveau:",
@@ -192,12 +192,12 @@
     "error": "Fout",
     "language_hint": "Je kan <translation>hier</translation> helpen met vertalingen.",
     "delete_stored_rppairing": "Verwijder opgeslagen koppeling",
-    "delete_stored_rppairing_message": "Weet je zeker dat je het opgeslagen koppelingsbestand voor dit apparaat wilt verwijderen? Dit zal vereisen dat je opnieuw koppelt.",
+    "delete_stored_rppairing_message": "Weet je zeker dat je het opgeslagen koppelingsbestand voor dit apparaat wilt verwijderen? Je zal hierna opnieuw moeten koppelen.",
     "deleting_stored_rppairing": "Opgeslagen koppeling verwijderen...",
     "stored_rppairing_deleted_success": "Opgeslagen koppeling succesvol verwijderd!",
     "failed_delete_stored_rppairing": "Kon opgeslagen koppeling niet verwijderen",
-    "dont_use_keyring": "Gebruik de keyring niet",
-    "dont_use_keyring_message": "Door koppelingsbestanden, anisette status en certificaten op schijf op te slaan wordt iloader minder veilig. Schakel dit alleen in als de standaard keyring opslag niet werkt en je de risico's begrijpt."
+    "dont_use_keyring": "Sleutelhanger niet gebruiken",
+    "dont_use_keyring_message": "Het opslaan van koppelingsbestanden, de Anisette-status en certificaten op de harde schijf maakt iloader kwetsbaarder. Gebruik deze optie alleen als de standaard opslag in de sleutelhanger niet werkt en je de risico's begrijpt."
   },
   "dialog": {
     "confirm": "Bevestigen",
@@ -213,10 +213,10 @@
       ],
       "account_locked": [
         "Geen paniek! Dit gebeurt meestal na meerdere mislukte inlogpogingen, maar het is volkomen onschuldig.",
-        "Ga naar ((link:https://iforgot.apple.com/)) om uw account te ontgrendelen."
+        "Ga naar ((link:https://iforgot.apple.com/)) om je account te ontgrendelen."
       ],
       "auth": [
-        "Zorg ervoor dat uw inloggegevens correct zijn en probeer het opnieuw, zelfs als ze correct waren.",
+        "Zorg ervoor dat je inloggegevens correct zijn en probeer het opnieuw, zelfs als ze correct waren.",
         "Als het probleem aanhoudt, probeer dan een andere Apple ID te gebruiken.",
         "Security Key 2FA wordt niet ondersteund. Gebruik, indien mogelijk, een Apple ID zonder 2FA of met een vertrouwd 2FA apparaat."
       ],
@@ -224,40 +224,40 @@
         "Download SideStore handmatig op ((link:https://github.com/SideStore/SideStore/releases)) en gebruik de \"Import IPA\" knop om het te installeren."
       ],
       "house_arrest": [
-        "[ios::26.3]Zorg ervoor dat uw apparaat niet is uitgerust met een ontwikkelaarsbètaversie van iOS 26.3, aangezien deze een bug bevat met betrekking tot huisarrest."
+        "[ios::26.3]Zorg ervoor dat je apparaat niet is uitgerust met een ontwikkelaarsbètaversie van iOS 26.3, aangezien deze een bug bevat met betrekking tot huisarrest."
       ],
       "pairing": [
         "Probeer het apparaat opnieuw aan te sluiten en de actie opnieuw uit te voeren.",
-        "Zorg ervoor dat er een pincode staat ingesteld op uw apparaat.",
-        "Zorg ervoor dat uw apparaat via USB is aangesloten, niet draadloos."
+        "Zorg ervoor dat er een pincode staat ingesteld op je apparaat.",
+        "Zorg ervoor dat je apparaat via USB is aangesloten, niet draadloos."
       ],
       "canceled": [],
       "operation_update": [],
       "usbmuxd": [
-        "[platform::windows]Zorg ervoor dat u ((link:https://apple.co/ms:iTunes)) heeft geïnstalleerd en controleer of het uw apparaat kan detecteren.",
+        "[platform::windows]Zorg ervoor dat ((link:https://apple.co/ms:iTunes)) geïnstalleerd is en controleer of het je apparaat kan detecteren.",
         "[platform::windows]Verwijder iTunes en Apple Mobile Device Support, en installeer vervolgens \"Apple Devices\" vanuit de Microsoft Store.",
         "[platform::linux]Zorg ervoor dat usbmuxd is geïnstalleerd en actief is."
       ],
       "trust": [
-        "Ontgrendel uw apparaat en klik op \"Vertrouwen\" wanneer daarom wordt gevraagd."
+        "Ontgrendel je apparaat en klik op \"Vertrouwen\" wanneer daarom wordt gevraagd."
       ],
       "device_coms": [
-        "Zorg ervoor dat uw apparaat correct is aangesloten op uw computer.",
+        "Zorg ervoor dat je apparaat correct is aangesloten op je computer.",
         "Koppel het apparaat los en sluit het opnieuw aan. Als het probleem aanhoudt, probeer dan een andere USB-poort en kabel."
       ],
       "not_logged_in": [
-        "Meld u eerst aan met uw Apple ID."
+        "Meld je eerst aan met je Apple ID."
       ],
       "no_device_selected": [
-        "Selecteer een apparaat voordat u doorgaat."
+        "Selecteer een apparaat voordat je doorgaat."
       ],
       "anisette": [
-        "Zorg ervoor dat uw computer is verbonden met het internet.",
-        "Wijzig uw anisette server. Probeer meerdere verschillende servers.",
-        "Zorg ervoor dat u toegang heeft tot ((link:{{anisetteServerUrl}})) in een browser."
+        "Zorg ervoor dat je computer is verbonden met het internet.",
+        "Wijzig je Anisette-server. Probeer meerdere verschillende servers.",
+        "Zorg ervoor dat je toegang hebt tot ((link:{{anisetteServerUrl}})) in een browser."
       ],
       "keyring": [
-        "Probeer \"Gebruik de keyring niet\" in de instellingen in te schakelen om dit probleem te omzeilen. Merk op dat dit minder veilig is."
+        "Probeer \"Sleutelhanger niet gebruiken\" in de instellingen in te schakelen om dit probleem te omzeilen. Merk op dat dit minder veilig is."
       ],
       "misc": [
         "Probeer het nogmaals. Het opnieuw opstarten van de app, je computer en/of je telefoon kan ook helpen."
@@ -266,10 +266,10 @@
         "Probeer de app met verhoogde bevoegdheden uit te voeren (als beheerder/root)."
       ],
       "filesystem": [
-        "Zorg ervoor dat iloader toegang heeft tot het lezen en schrijven van bestanden op uw systeem."
+        "Zorg ervoor dat iloader toegang heeft tot het lezen en schrijven van bestanden op je systeem."
       ],
       "not_enough_app_ids": [
-        "U heeft niet genoeg App IDs beschikbaar om deze app te installeren.",
+        "Je hebt niet genoeg App IDs beschikbaar om deze app te installeren.",
         "Wacht tot App IDs verlopen zijn na 7 dagen (kunnen niet eerder worden verwijderd), en probeer het daarna opnieuw.",
         "Soms is het mogelijk om vanuit SideStore minder App IDs te gebruiken, dus probeer de app te installeren via SideStore."
       ],
@@ -282,7 +282,7 @@
     "support_message": "Als het probleem aanhoudt, druk op \"Kopieer naar klembord\" en stuur de gekopieerde foutmelding naar de <discord>Discord</discord> of een <github>GitHub issue</github> voor ondersteuning."
   },
   "update": {
-    "new_version_available": "Een nieuwe versie is beschikbaar: {{version}}. Wilt u updaten?",
+    "new_version_available": "Een nieuwe versie is beschikbaar: {{version}}. Wil je updaten?",
     "updating": "Updaten...",
     "downloaded_restarting": "Update gedownload! De app herstarten...",
     "failed_download": "Kon de update niet downloaden: {{error}}"
